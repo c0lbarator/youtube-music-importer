@@ -8,6 +8,6 @@ Import music from a text file into youtube music. These scripts use the [ytmusic
 3. Install ytmusicapi: `pip install ytmusicapi && export PATH=$HOME/.local/bin`
 4. Drag and drop the song list into the cloud shell, rename it to `songs.txt`.
 5. Run the `mover.py` script. This script will find the video indexes of the songs in the list and store them in the `video_ids.txt` file.
-6. [Authorize](https://ytmusicapi.readthedocs.io/en/stable/setup/oauth.html) and fill `client_id` and `client_secret` with your own values, rename the playlist
+6. [Authorize](https://ytmusicapi.readthedocs.io/en/stable/setup/oauth.html) and fill `client_id` and `client_secret` in `adder.py` with your own values, rename the playlist
 7. Run `adder.py`.
 8. Now you have your own playlist on YT Music, enjoy!
